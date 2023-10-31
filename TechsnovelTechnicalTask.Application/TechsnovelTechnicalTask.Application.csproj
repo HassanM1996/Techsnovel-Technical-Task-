@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TechsnovelTechnicalTask.Common\TechsnovelTechnicalTask.Common.csproj" />
-    <ProjectReference Include="..\TechsnovelTechnicalTask.Domain\TechsnovelTechnicalTask.Domain.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.7" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.13" />
+    <ProjectReference Include="..\TechsnovelTechnicalTask.Common\TechsnovelTechnicalTask.Common.csproj" />
+    <ProjectReference Include="..\TechsnovelTechnicalTask.Domain\TechsnovelTechnicalTask.Domain.csproj" />
   </ItemGroup>
 
 </Project>

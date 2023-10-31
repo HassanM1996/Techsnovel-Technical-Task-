@@ -4,9 +4,9 @@ using TechsnovelTechnicalTask.Domain.Entities;
 
 namespace TechsnovelTechnicalTask.Persistence.Contexts
 {
-    public class DataBaseContext : DbContext, ISqlDataBaseContext
+    public class SqlDataBaseContext : DbContext, ISqlDataBaseContext
     {
-        public DataBaseContext(DbContextOptions options) : base(options)
+        public SqlDataBaseContext(DbContextOptions options) : base(options)
         {
         }
 

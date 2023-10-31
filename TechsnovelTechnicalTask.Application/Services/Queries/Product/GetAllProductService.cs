@@ -35,7 +35,7 @@ namespace TechsnovelTechnicalTask.Application.Services.Queries.Product
 
             return new ResultListDto<ProductDto>
             {
-                result = result,
+                Result = result.ToList(),
                 Rows = rowsCount
             };
 

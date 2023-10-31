@@ -14,7 +14,9 @@ namespace TechsnovelTechnicalTask.Application.Services.Commands.Category
         }
         public ResultDto<CategoryDto> Execute(UpdateCategoryDto updateCategoryDto)
         {
+            updateCategoryDto.Name = updateCategoryDto.Name.Trim().ToLower();
             var category = _context.Categories.Find(updateCategoryDto.Id);
+
             if (category == null)
             {
                 return new ResultDto<CategoryDto>

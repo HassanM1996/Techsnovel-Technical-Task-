@@ -11,6 +11,8 @@ namespace TechsnovelTechnicalTask.Infrastructure
         {
             services.AddScoped<IProductFacad, ProductFacad>();
             services.AddScoped<ICategoryFacad, CategoryFacad>();
+            services.AddScoped<IAuthenticationFacad, AuthenticationFacad>();
+            
 
             return services;
         }
