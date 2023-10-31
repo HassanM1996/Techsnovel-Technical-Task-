@@ -15,9 +15,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3A06C788-A060-4DA2-BE0B-437D5A4153D0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{92967AB3-86B2-4ED9-9D94-C28F26165E8C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{92967AB3-86B2-4ED9-9D94-C28F26165E8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechsnovelTechnicalTask.Domain", "TechsnovelTechnicalTask.Domain\TechsnovelTechnicalTask.Domain.csproj", "{869515CC-B034-421F-983F-6F578346A6C6}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{869515CC-B034-421F-983F-6F578346A6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869515CC-B034-421F-983F-6F578346A6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869515CC-B034-421F-983F-6F578346A6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869515CC-B034-421F-983F-6F578346A6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -26,6 +38,7 @@ Global
 		{86BD6292-E567-4939-ABEF-3E1B1F3270F0} = {50952120-DC83-41CD-89A2-612C696E2D82}
 		{33B06FAC-65E9-4D97-90A2-B7EFDCBED7A5} = {50952120-DC83-41CD-89A2-612C696E2D82}
 		{3A06C788-A060-4DA2-BE0B-437D5A4153D0} = {50952120-DC83-41CD-89A2-612C696E2D82}
+		{869515CC-B034-421F-983F-6F578346A6C6} = {86BD6292-E567-4939-ABEF-3E1B1F3270F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {750BED8A-3065-4CF4-9AED-61712AF9665F}
