@@ -2,7 +2,7 @@
 {
     public class ResultListDto<T>
     {
-        public IEnumerable<T> result;
+        public List<T> Result { get; set; }
         public int Rows { get; set; }
     }
 }

@@ -35,7 +35,7 @@ namespace TechsnovelTechnicalTask.Application.Services.Queries.Category
 
             return new ResultListDto<CategoryDto>
             {
-                result = result,
+                Result = result.ToList(),
                 Rows = rowsCount
             };
 
